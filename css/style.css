@@ -235,6 +235,7 @@ html {
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
+  padding-bottom: 15px;
 }
 
 #cumples .fila {
@@ -586,7 +587,7 @@ footer a {
   #sobrenosotras {
     padding: 50px 0;
     display: block;
-  }
+      }
   #sobrenosotras .contenedor-foto {
     max-width: 250px;
     margin: auto;
@@ -601,7 +602,6 @@ footer a {
     font-size: 25px;
     text-align: center;
   }
-
 
   
   /* seccion MIS formacion */
@@ -649,7 +649,7 @@ footer a {
 
 /*Cards*/
 .container-card{
-	width: 70%;
+	width: 75%;
 	display: flex;
 	max-width: 1100px;
 	margin: auto;
@@ -692,7 +692,7 @@ footer a {
 .card .contenido-card p{
 	line-height: 1.8;
 	color: #6a6a6a;
-	font-size: 14px;
+  font-size: 14px;
 	margin-bottom: 5px;
 }
 .card .contenido-card a{
@@ -716,7 +716,20 @@ footer a {
 	}
 	.card{
 		margin: 15px;
+    padding: 15px;
 	}
+  .sobrenosotras{
+    margin: 15px;
+    padding: 15px;
+    text-align:justify;
+
+  }
 }
 /*Fin-Cards*/
+
+
+
+
+
+
 
